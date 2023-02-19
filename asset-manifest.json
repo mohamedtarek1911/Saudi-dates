@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/Saudi-dates/static/css/main.5e060779.css",
+    "main.js": "/Saudi-dates/static/js/main.fa7985f4.js",
+    "static/media/Union 2.png": "/Saudi-dates/static/media/Union 2.c3f01a026e3684beb91f.png",
+    "static/media/fa-solid-900.ttf": "/Saudi-dates/static/media/fa-solid-900.2877d54f94f30c5d563c.ttf",
+    "static/media/fa-brands-400.ttf": "/Saudi-dates/static/media/fa-brands-400.13e40630e5866f777de8.ttf",
+    "static/media/fa-solid-900.woff2": "/Saudi-dates/static/media/fa-solid-900.bdb9e23299f9d1320a8b.woff2",
+    "static/media/fa-brands-400.woff2": "/Saudi-dates/static/media/fa-brands-400.7be2266f1be21c44ecd4.woff2",
+    "static/media/58RaVqfpUo3fmJmrgxPfa41647843520.png": "/Saudi-dates/static/media/58RaVqfpUo3fmJmrgxPfa41647843520.0d17cda8d1991cfa67e5.png",
+    "static/media/58YvR1ae2cKnq6L9XPPhgI1647844007.png": "/Saudi-dates/static/media/58YvR1ae2cKnq6L9XPPhgI1647844007.b64878ee1fe3429789e6.png",
+    "static/media/58NJ1UWLN9CA2bdY1zHnLQ1647844175.png": "/Saudi-dates/static/media/58NJ1UWLN9CA2bdY1zHnLQ1647844175.0de6228c34492683f58d.png",
+    "static/media/37xuaNI4vdreCYz8PNQzEl1648627559.png": "/Saudi-dates/static/media/37xuaNI4vdreCYz8PNQzEl1648627559.ed028b955f9f54554c35.png",
+    "static/media/26akEWlThxtGS5UdC0NQ6l1648626022.png": "/Saudi-dates/static/media/26akEWlThxtGS5UdC0NQ6l1648626022.aafd7f31953689f98286.png",
+    "static/media/3739PdCw0dsCvmLAFJqDOU1648627500.png": "/Saudi-dates/static/media/3739PdCw0dsCvmLAFJqDOU1648627500.41d17ba0aea2927d7160.png",
+    "static/media/37rZsPNNYYLz96KGBGKcWT1648627443.png": "/Saudi-dates/static/media/37rZsPNNYYLz96KGBGKcWT1648627443.5e9abc91369a07d295d1.png",
+    "static/media/fa-regular-400.ttf": "/Saudi-dates/static/media/fa-regular-400.146404900f7550a9719d.ttf",
+    "static/media/58K71NWBWsZTy2iHVHlKq01647845123.png": "/Saudi-dates/static/media/58K71NWBWsZTy2iHVHlKq01647845123.ddb0655c4ee108be2b00.png",
+    "static/media/fa-regular-400.woff2": "/Saudi-dates/static/media/fa-regular-400.8bedd7cfa43a6c358cdd.woff2",
+    "static/media/Group 19661.png": "/Saudi-dates/static/media/Group 19661.c631310639a4aa57bfd3.png",
+    "static/media/fa-v4compatibility.ttf": "/Saudi-dates/static/media/fa-v4compatibility.6c0a7b774ffa1cf0a059.ttf",
+    "static/media/fa-v4compatibility.woff2": "/Saudi-dates/static/media/fa-v4compatibility.497d535001197a9c5b38.woff2",
+    "static/media/svgexport-9.svg": "/Saudi-dates/static/media/svgexport-9.640a1f5c7a5c270f6ff3e87a620a5cef.svg",
+    "static/media/logo.svg": "/Saudi-dates/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/Saudi-dates/index.html",
+    "main.5e060779.css.map": "/Saudi-dates/static/css/main.5e060779.css.map",
+    "main.fa7985f4.js.map": "/Saudi-dates/static/js/main.fa7985f4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5e060779.css",
+    "static/js/main.fa7985f4.js"
+  ]
+}

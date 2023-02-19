@@ -855,7 +855,7 @@ body {
 }
 .postion_icon {
   position: absolute;
-  top: 97%;
+  top: 119%;
   left: 50%;
   transform: translate(-50%, -50%);
   background-color: #11998e;
@@ -947,8 +947,8 @@ body {
   margin-bottom: 15px !important;
 }
 .search_icon {
-  top: 37.8%;
-  left: 44.5%;
+  top: 35.8%;
+  left: 43.1%;
   width: 30px;
   height: 30px;
   background: #11998e 0% 0% no-repeat padding-box;

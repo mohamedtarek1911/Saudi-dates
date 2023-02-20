@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Saudi-dates/static/css/main.5e060779.css",
+    "main.css": "/Saudi-dates/static/css/main.bfaa2473.css",
     "main.js": "/Saudi-dates/static/js/main.fa7985f4.js",
     "static/media/Union 2.png": "/Saudi-dates/static/media/Union 2.c3f01a026e3684beb91f.png",
     "static/media/fa-solid-900.ttf": "/Saudi-dates/static/media/fa-solid-900.2877d54f94f30c5d563c.ttf",
@@ -23,11 +23,11 @@
     "static/media/svgexport-9.svg": "/Saudi-dates/static/media/svgexport-9.640a1f5c7a5c270f6ff3e87a620a5cef.svg",
     "static/media/logo.svg": "/Saudi-dates/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/Saudi-dates/index.html",
-    "main.5e060779.css.map": "/Saudi-dates/static/css/main.5e060779.css.map",
+    "main.bfaa2473.css.map": "/Saudi-dates/static/css/main.bfaa2473.css.map",
     "main.fa7985f4.js.map": "/Saudi-dates/static/js/main.fa7985f4.js.map"
   },
   "entrypoints": [
-    "static/css/main.5e060779.css",
+    "static/css/main.bfaa2473.css",
     "static/js/main.fa7985f4.js"
   ]
 }

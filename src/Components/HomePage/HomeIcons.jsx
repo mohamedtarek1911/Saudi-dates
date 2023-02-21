@@ -220,8 +220,8 @@ export default function HomeIcons() {
   };
   return (
     <>
-      <Container>
-        <Row className="my-2 d-flex justify-content-between postion ">
+      <Container className="position-relative">
+        <Row className="my-2 d-flex justify-content-between  ">
           <IconCard Icon={svg()} title={"منتجات التمور"} />
           <IconCard Icon={svg1()} title={"مشتقات التمور "} />
           <IconCard Icon={svg2()} title={"مناصيف و بسر"} />

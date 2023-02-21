@@ -123,18 +123,18 @@ export default function Header() {
                 الوصفات
               </Nav.Link>
               <div>
-                <Form className="d-flex ms-2">
+                <Form className="d-flex ms-2 position-relative">
                   <Form.Control
                     type="search"
                     placeholder="ما الذي تبحث عنه ؟"
-                    className="me-2 position-relative"
+                    className="me-2 "
                     aria-label="Search"
                     dir="rtl"
                   />
+                  <span className="position-absolute search_icon">
+                    <i className="fa-solid fa-magnifying-glass text-white"></i>
+                  </span>
                 </Form>
-                <span className="position-absolute search_icon">
-                  <i className="fa-solid fa-magnifying-glass text-white"></i>
-                </span>
               </div>
               <div className="d-flex align-content-center align-items-center justify-content-around mx-4 ">
                 <div>

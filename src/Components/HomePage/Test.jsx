@@ -1,13 +1,11 @@
 import React, { useRef, useState } from "react";
-// Import Swiper React components
-import { Swiper, SwiperSlide } from "swiper/react";
+// Import slick React components
+import Slider from "react-slick";
 
-// Import Swiper styles
-import "swiper/css";
-import "swiper/css/scrollbar";
-
+// Import slick styles
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 // import required modules
-import { Scrollbar } from "swiper";
 import CategoryCard from "../Cards/CategoryCard";
 import img1 from "../Assets/Images/58K71NWBWsZTy2iHVHlKq01647845123.png";
 import img2 from "../Assets/Images/58NJ1UWLN9CA2bdY1zHnLQ1647844175.png";
@@ -15,59 +13,50 @@ import img3 from "../Assets/Images/58RaVqfpUo3fmJmrgxPfa41647843520.png";
 import img4 from "../Assets/Images/58YvR1ae2cKnq6L9XPPhgI1647844007.png";
 import { Container, Row } from "react-bootstrap";
 export default function Test() {
+  const settings = {
+    className: "center",
+    infinite: true,
+    slidesToShow: 5,
+    dots: true,
+    slidesToScroll: 1,
+    rtl: true,
+    // centerPadding: "60px",
+    swipeToSlide: true,
+    afterChange: function (index) {
+      console.log(
+        `Slider Changed to: ${index + 1}, background: #222; color: #bada55`
+      );
+    },
+  };
   return (
     <>
       <Container>
-        <Row>
-          <Swiper
-            dir="rtl"
-            slidesPerView={6}
-            scrollbar={{
-              hide: true,
-            }}
-            modules={[Scrollbar]}
-            className="mySwiper"
-          >
-            <Row className="my-2 d-flex justify-content-between">
-              <SwiperSlide>
-                <CategoryCard img={img1} />
-              </SwiperSlide>
-              <SwiperSlide>
-                <CategoryCard img={img2} />
-              </SwiperSlide>{" "}
-              <SwiperSlide>
-                <CategoryCard img={img3} />
-              </SwiperSlide>{" "}
-              <SwiperSlide>
-                <CategoryCard img={img4} />
-              </SwiperSlide>{" "}
-              <SwiperSlide>
-                <CategoryCard img={img1} />
-              </SwiperSlide>{" "}
-              <SwiperSlide>
-                <CategoryCard img={img2} />
-              </SwiperSlide>
-              <SwiperSlide>
-                <CategoryCard img={img1} />
-              </SwiperSlide>
-              <SwiperSlide>
-                <CategoryCard img={img2} />
-              </SwiperSlide>{" "}
-              <SwiperSlide>
-                <CategoryCard img={img3} />
-              </SwiperSlide>{" "}
-              <SwiperSlide>
-                <CategoryCard img={img4} />
-              </SwiperSlide>{" "}
-              <SwiperSlide>
-                <CategoryCard img={img1} />
-              </SwiperSlide>{" "}
-              <SwiperSlide>
-                <CategoryCard img={img2} />
-              </SwiperSlide>
-            </Row>
-          </Swiper>
-        </Row>
+        <Slider {...settings}>
+          <div>
+            <CategoryCard img={img1} />
+          </div>
+          <div>
+            <CategoryCard img={img2} />
+          </div>
+          <div>
+            <CategoryCard img={img3} />
+          </div>
+          <div>
+            <CategoryCard img={img4} />
+          </div>
+          <div>
+            <CategoryCard img={img1} />
+          </div>
+          <div>
+            <CategoryCard img={img2} />
+          </div>
+          <div>
+            <CategoryCard img={img3} />
+          </div>
+          <div>
+            <CategoryCard img={img4} />
+          </div>
+        </Slider>
       </Container>
     </>
   );

@@ -49,8 +49,8 @@ body {
   right: 100%;
   margin-right: 12px;
   transform: translateY(-50%);
-}
-.sub-tile::before {
+} */
+/* .sub-tile::before {
   content: "";
   position: absolute;
   height: 1px;
@@ -605,7 +605,7 @@ body {
 }
 
 .cart-checkout {
-  height: 200px;
+  height: 12%;
   width: 100%;
   border-radius: 20px;
   background-color: #ffffff;
@@ -978,6 +978,19 @@ body {
 .btn-success {
   background-color: #11998e !important;
 }
+.Footer_line {
+  border: 2px solid #ffffff;
+  opacity: 0.8;
+  width: 90%;
+}
+.footer_rights {
+  text-align: center;
+  font: normal normal 300 22px/43px Expo Arabic;
+  letter-spacing: 0.11px;
+  color: #ffffff;
+  opacity: 1;
+  font-size: 22px;
+}
 .swiper {
   width: 100%;
   height: 100%;
@@ -987,26 +1000,26 @@ body {
   color: #adb6bc;
 }
 .swiper-slide {
-  text-align: center;
+  /* text-align: center;
   font-size: 18px;
-  background: #fff;
+  background: #fff; */
 
   /* Center slide text vertically */
-  display: flex;
+  /* display: flex;swiper-button-next
   justify-content: space-around;
-  align-items: center;
+  align-items: center; */
 }
 
-.swiper-slide img {
+/* .swiper-slide img {
   display: block;
   width: 100%;
   height: 100%;
   object-fit: cover;
-}
+} */
 .swiper-scrollbar-drag {
   background: #11998e !important;
   opacity: 1 !important;
-  width: 180px !important;
+  width: 12% !important;
 }
 .swiper-scrollbar,
 .swiper-scrollbar-horizontal {
@@ -1014,6 +1027,7 @@ body {
 }
 .swiper-slide {
   display: flex !important;
+  padding: 0 !important;
 }
 
 .swiper-slide img {
@@ -1024,9 +1038,53 @@ body {
 }
 .swiper-wrapper {
   display: flex;
-  justify-content: space-around;
+  /* justify-content: space-evenly; */
   align-items: center;
 }
+.swiper-pagination {
+  display: none;
+}
+.swiper-button-next,
+.swiper-button-prev {
+  color: #11998e !important;
+  display: none !important;
+}
+
+.mySwiper {
+  display: flex;
+  justify-content: center;
+}
+.mySwiper:hover .swiper-button-prev {
+  display: block !important;
+}
+.mySwiper:hover .swiper-button-next {
+  display: block !important;
+}
+
+.swiper {
+  width: 100%;
+  /* height: 100%; */
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: flex;
+  /* justify-content: center;
+  align-items: center; */
+  margin-left: 0 !important;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
 /*=============== BREAKPOINTS ===============*/
 /* For large devices */
 @media screen and (max-width: 992px) {
@@ -1077,7 +1135,7 @@ body {
   }
   .cardall {
     position: relative;
-    height: 360px;
+    height: 430px;
     width: 254px;
     border: 1px solid #e2e2e2;
     border-radius: 15px;
@@ -1094,6 +1152,14 @@ body {
     justify-content: center;
     align-items: center;
     margin: -4px -3px;
+  }
+  .swiper-scrollbar-drag {
+    background: #11998e !important;
+    opacity: 1 !important;
+    width: 25% !important;
+  }
+  .Footer_line {
+    margin: 0 12px;
   }
 }
 
@@ -1114,7 +1180,7 @@ body {
   }
   .cardall {
     position: relative;
-    height: 360px;
+    height: 430px;
     width: 254px;
     border: 1px solid #e2e2e2;
     border-radius: 15px;

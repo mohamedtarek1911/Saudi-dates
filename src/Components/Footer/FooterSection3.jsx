@@ -9,7 +9,7 @@ export default function FooterSection3() {
         // sm="12"
         // md="3"
         // lg="2"
-        className="my-4 d-flex flex-column"
+        className="my-4 d-flex flex-column text-center"
       >
         <h4 className="head_section">تمور السعودية</h4>
         <div className="heading_line-section4 my-1"></div>
